@@ -85,7 +85,7 @@ const Menu = ({
           z-index: 1300;
           bottom: 0px;
           width: 170px;
-          background-color: white;
+          background-color: var(--palette-background-paper);
         }
       `}</style>
     </>
