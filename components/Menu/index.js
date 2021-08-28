@@ -70,6 +70,9 @@ const Menu = ({
         <TMDBMark className='tmdb-mark' />
       </nav>
       <style jsx>{`
+        :global(nav) {
+          padding-bottom: 50px;
+        }
         :global(.copyright) {
           display: flex;
           justify-content: center;
@@ -77,7 +80,12 @@ const Menu = ({
         }
 
         :global(.tmdb-mark) {
-          margin: 16px 8px;
+          padding: 16px 8px;
+          position: fixed;
+          z-index: 1300;
+          bottom: 0px;
+          width: 170px;
+          background-color: white;
         }
       `}</style>
     </>
